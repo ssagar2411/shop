@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://pharmatest.converdy.link/ -->
+<html class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Pharma Test</title>
+	<meta name="title" content="Pharma Test">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="generator" content="Converdy v0.9.1">
+	<meta property="og:type" content="website">
+	
+	
+	
+	
+	
+	<link rel="dns-prefetch preconnect" href="https://storage.googleapis.com/">
+	<style>
+		
+
+			:root  {
+				--primary-color: hsla(268.84120171673817,87%,45%,1);--primary-color-alpha: hsla(269, 87%, 45%, 0.4);--primary-color-light: hsl(269, 87%, 65%);--primary-color-lighter: hsl(269, 87%, 70%);--primary-color-darker: hsl(269, 87%, 25%);--primary-color-dark: hsl(269, 87%, 5%);--secondary-color: hsl(214, 76%, 21%);--secondary-color-alpha: hsla(214, 76%, 21%, 0.4);--secondary-color-light: hsl(214, 76%, 41%);--secondary-color-lighter: hsl(214, 76%, 46%);--secondary-color-darker: hsl(218, 63%, 1%);--secondary-color-dark: hsl(0, 0%, 0%);--black: hsl(0, 0%, 0%);--black-alpha-70: hsl(0, 0%, 10%, 70%);--black-alpha-10: hsl(0, 0%, 10%, 11%);--white: hsl(0, 0%, 100%);--white-alpha-70: hsl(0, 0%, 100%, 70%);--white-alpha-10: hsl(0, 0%, 100%, 10%);--grey-dark: hsl(0, 0%, 60%);--grey: hsl(0, 0%, 95%);--grey-light: hsl(0, 0%, 97%);--grey-lighter: hsl(0, 0%, 98%);--orange: hsl(15, 87%, 57%);--blue: hsl(211, 85%, 57%);--green: hsla(0,0%,94%,1);--red: hsl(6, 76%, 57%);--c7197873: hsla(100.36363636363635,94%,19%,1);
+				/* ratios */
+				--text-base-scale: 1.5;
+				/* spacing presets */
+				--spacing-xs: 5px;--spacing-s: 10px;--spacing-m: 25px;--spacing-l: 50px;--spacing-xl: 150px;
+				/* Width Presets */
+				
+			--width-wide: calc(960px);
+			--width-medium: calc(720px);
+			--width-small: calc(600px);
+			--width-smaller: calc(420px);	
+				/* Fonts */
+				--primary-font: Ropa Sans;
+				--secondary-font: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;	
+			}
+
+			/* Resets */
+			@media only screen and (max-width: 768px) {
+
+				.previewer {
+					--spacing-xs: 5px;
+					--spacing-s: 10px;
+					--spacing-m: 15px;
+					--spacing-l: 20px;
+					--spacing-xl: 40px;
+				}
+			
+			}
+
+			/* Typography Presets */
+			 .large-heading { color: var(--black);font-family: var(--primary-font);font-weight: var(--weight-bold);text-transform: var(--transform-normal);font-size: calc(var(--scale) * 50px);line-height: calc(var(--scale) * 1em); }  .medium-heading { color: var(--black);font-family: var(--primary-font);font-weight: var(--weight-bold);text-transform: var(--transform-normal);font-size: calc(var(--scale) * 25px);line-height: calc(var(--scale) * 0.8em); }  .small-heading { color: var(--black);font-family: var(--primary-font);font-weight: var(--weight-bold);text-transform: var(--transform-normal);font-size: calc(var(--scale) * 24px);line-height: calc(var(--scale) * 1.4em); }  .strong-heading { color: var(--primary-color);font-family: var(--primary-font);font-weight: var(--weight-bold);text-transform: var(--transform-uppercase);font-size: calc(var(--scale) * 16px);line-height: calc(var(--scale) * 1.4em); }  .medium-text { color: var(--grey-dark);font-family: var(--primary-font);font-weight: var(--weight-normal);text-transform: var(--transform-normal);font-size: calc(var(--scale) * 20px);line-height: calc(var(--scale) * 1.3em); }  .small-text { color: var(--grey-dark);font-family: var(--primary-font);font-weight: var(--weight-normal);text-transform: var(--transform-normal);font-size: calc(var(--scale) * 16px);line-height: calc(var(--scale) * 1.4em); }  .button-text { color: var(--white);font-family: var(--secondary-font);font-weight: var(--weight-bold);text-transform: var(--transform-normal);font-size: calc(var(--scale) * 15px);line-height: calc(var(--scale) * 1.4em); } 
+			/* Border Presets */
+			 .none { border-style: solid;
+			border-top-width: 10px;
+			border-right-width: 10px;
+			border-bottom-width: 10px;
+			border-left-width: 10px;
+			border-color: var(--primary-color);
+		 }  .border-thin { border-style: solid;
+			border-top-width: 1px;
+			border-right-width: 1px;
+			border-bottom-width: 1px;
+			border-left-width: 1px;
+			border-color: var(--primary-color);
+		 }  .border-fat { border-style: solid;
+			border-top-width: 2px;
+			border-right-width: 2px;
+			border-bottom-width: 2px;
+			border-left-width: 2px;
+			border-color: var(--primary-color);
+		 } 
+			/* Radius Presets */
+			 .none { 
+			border-top-left-radius:  		10px;
+			border-top-right-radius:  	10px;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius:  10px;
+	 }  .radius-subtle { 
+			border-top-left-radius:  		4px;
+			border-top-right-radius:  	4px;
+			border-bottom-right-radius: 4px;
+			border-bottom-left-radius:  4px;
+	 }  .radius-rounded { 
+			border-top-left-radius:  		30px;
+			border-top-right-radius:  	30px;
+			border-bottom-right-radius: 30px;
+			border-bottom-left-radius:  30px;
+	 } 
+			/* Shadow Presets */
+			 
+		.none {
+			--shadow-color: var(--black-alpha-10);
+			box-shadow: 0px 2px 4px var(--shadow-color);
+		}  
+		.shadow-small {
+			--shadow-color: var(--black-alpha-10);
+			box-shadow: 0px 2px 4px var(--shadow-color);
+		}  
+		.shadow-medium {
+			--shadow-color: var(--black-alpha-10);
+			box-shadow: 0px 4px 8px var(--shadow-color);
+		}  
+		.shadow-large {
+			--shadow-color: var(--black-alpha-10);
+			box-shadow: 0px 15px 30px var(--shadow-color);
+		} 
+
+	
+			:root{--height-auto: auto;--height-100vh: 100vh;--height-75vh: 75vh;--height-50vh: 50vh;--height-25vh: 25vh}.experiment-running .variation{display:none}.experiment-running .active-variation{display:block}:root{--weight-thin: 300;--weight-normal: 400;--weight-bold: 700;--transform-uppercase: uppercase;--transform-normal: normal;--device-scale: 1;--scale: calc(var(--text-base-scale) * var(--device-scale))}body,html{font-family:var(--primary-font)}p,h1,h2,h3,h4,h5,h6,span{word-break:word-break}h1,h2,h3,h4,h5,h6{margin:0;padding:0}.inline-text a{color:var(--primary-color);text-decoration-color:inherit}.inline-text u,.inline-text em{text-decoration-color:inherit}span.inline-text,div.inline-text,p.inline-text,h1.inline-text,h2.inline-text,h3.inline-text,h4.inline-text,h5.inline-text,h6.inline-text{text-transform:inherit;font-size:inherit;color:inherit;font-weight:inherit;font-family:inherit}h6.inline-text:empty,h5.inline-text:empty,h4.inline-text:empty,h3.inline-text:empty,h2.inline-text:empty,h1.inline-text:empty,p.inline-text:empty{display:block;width:100%;height:calc(var(--scale) * 1.4em)}*{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:greyscale}body{margin:0}ul{padding:0;margin:0}fieldset{border:none;margin:0;padding:0}a{-webkit-text-decoration-skip:objects}a,a:active,a:visited{color:inherit}a:active,a:hover{outline-width:0}p{margin:0}img{border-style:none}button,input{overflow:visible}button,select{text-transform:none}button,[type='button'],[type='reset'],[type='submit']{-webkit-appearance:button}:root{--weight-thin: 300;--weight-normal: 400;--weight-bold: 700;--transform-uppercase: uppercase;--transform-normal: normal;--device-scale: 1;--scale: calc(var(--text-base-scale) * var(--device-scale))}.prevent-scroll{overflow:hidden}body,html{font-family:var(--primary-font)}#converdy__app{overflow-x:hidden}p,h1,h2,h3,h4,h5,h6,span{word-break:word-break}h1,h2,h3,h4,h5,h6{margin:0;padding:0}.inline-text a{color:var(--primary-color);text-decoration-color:inherit}span.inline-text,div.inline-text,p.inline-text,h1.inline-text,h2.inline-text,h3.inline-text,h4.inline-text,h5.inline-text,h6.inline-text{text-transform:inherit;font-size:inherit;color:inherit;font-weight:inherit;font-family:inherit}@media only screen and (min-width: 768px){.hideDesktop{display:none}}@media only screen and (max-width: 768px){.hideMobile{display:none}}.bg{overflow:hidden;border-radius:inherit;position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none}.bg>.overlay{position:absolute;top:0;left:0;width:100%;height:100%;z-index:22}.bg .bg-image{top:0;left:0;width:100%;height:100%;z-index:1;position:absolute}.c-btn{display:inline-block;line-height:1.4;padding:14px 18px;text-decoration:none;word-wrap:normal;vertical-align:middle;cursor:pointer;min-width:180px;text-align:center;font-weight:var(--btn-font-weight);font-size:var(--btn-font-size);text-transform:var(--btn-font-transform);letter-spacing:var(--btn-font-spacing)}.fluid{width:100%}.c-lazy-image{width:100%;max-width:100%;position:relative;height:100%;display:inline-block}.c-lazy-image img{transition:opacity 0.2s ease 0.2s;width:100%;height:100%;object-fit:cover;object-position:center center;position:absolute;top:0;left:0}.c-wrapper,.c-el{position:relative}.popup-wrapper{position:fixed;top:0px;height:100vh;overflow-x:hidden;overflow-y:scroll;z-index:100;max-width:100%;width:100%;justify-content:center;align-items:center;flex-wrap:wrap;display:none}.popup-wrapper.open{display:flex}.popup{position:relative;text-align:center;max-width:100%;width:100%;display:flex;align-items:center;flex-direction:column;justify-content:center;margin:30px}.popup .popup-content{width:100%}.popup.size-small{max-width:400px;min-height:400px}.popup.size-medium{max-width:600px;min-height:400px}.popup.size-large{max-width:100%;min-height:calc(100% - 80px)}.close-popup{width:24px;height:24px;border-radius:100%;position:relative;border:1px solid #999999;position:absolute;top:10px;right:10px}.close-popup>.icon{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:14px;height:14px;color:#999999}.svg-loader{--loader-size: 65px;--loader-color: #ffffff;--stroke-width: 8px;height:var(--loader-size);margin-left:auto;margin-right:auto;width:var(--loader-size);opacity:0.8}.svg-loader__svg{animation:2s linear infinite both svg-loader__svg}@keyframes svg-loader__svg{0%{transform:rotateZ(0deg)}100%{transform:rotateZ(360deg)}}.svg-loader__svg-svg-loader{animation:1.4s ease-in-out infinite both svg-loader__svg-svg-loader;fill:transparent;stroke:var(--loader-color);stroke-dasharray:285;stroke-linecap:round;stroke-width:var(--stroke-width);transform-origin:50% 50%}@keyframes svg-loader__svg-svg-loader{0%,25%{stroke-dashoffset:280;transform:rotate(0)}50%,75%{stroke-dashoffset:75;transform:rotate(45deg)}100%{stroke-dashoffset:280;transform:rotate(360deg)}}.c-video-embed{position:relative;padding-bottom:56.25%;overflow:hidden;cursor:pointer}.c-video-embed>.video-thumbnail,.c-video-embed>.video-placeholder{position:absolute;top:50%;left:0;width:100%;height:auto;transform:translateY(-50%)}.c-video-embed>.video-placeholder{height:100%}.c-video-embed .c-video-initial-overlay{opacity:0;z-index:4;background:rgba(0,0,0,0.4);position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;pointer-events:none}.c-video-embed .c-video-initial-overlay .svg-play{width:70px;height:70px;opacity:0.8;background-image:url("https://storage.googleapis.com/production-converdy-assets/play-icon.svg");background-size:cover;transition:transform 200ms}.c-video-embed .c-video-initial-overlay .svg-play__svg{opacity:0.6}.c-video-embed:hover .svg-play{transform:scale(1.1);transform-origin:center}.c-video-embed .c-video-loader{transition:opacity 300ms;opacity:0;z-index:3;background:black;position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;pointer-events:none}.c-video-embed[data-video-state="initial"] .c-video-initial-overlay{opacity:1}.c-video-embed[data-video-state="loading"] .c-video-loader{opacity:1}.c-video-embed.c-video-vimeo iframe{width:100%;height:100%}
+.c-section>.inner{margin:auto;display:flex;justify-content:center;flex-direction:column;z-index:2}
+.c-image .inner{display:block}
+.col-1{width:8.33333%}.col-2{width:16.66667%}.col-3{width:25%}.col-4{width:33.33333%}.col-5{width:41.66667%}.col-6{width:50%}.col-7{width:58.33333%}.col-8{width:66.66667%}.col-9{width:75%}.col-10{width:83.33333%}.col-11{width:91.66667%}.col-12{width:100%}.lead-form .validation-error{display:block;margin:10px 0px;font-size:12px;color:red}.hidden{display:none}.lead-form{text-align:left;margin-right:-6px;margin-left:-6px}.lead-form form{display:inline-flex;flex-wrap:wrap;align-items:flex-start;width:100%;margin-bottom:0px}.lead-form .form-input{padding:6px}.lead-form .form-input>input,.lead-form .form-input>select,.lead-form .form-input>textarea{-webkit-appearance:none;padding:10px;width:100%;max-width:100%;line-height:1.5rem;outline:0;min-height:54px}.lead-form .form-input>label{pointer-events:none;text-align:inherit;display:block;padding-bottom:10px}.lead-form .form-input ::placeholder{color:inherit;font-size:inherit;font-family:inherit}.lead-form .form-input>input:focus,.lead-form .form-input>select:focus,.lead-form .form-input>textarea:focus{outline:0}.lead-form .form-button-wrapper{flex-grow:1;margin:6px}.lead-form .form-button-wrapper .btn{cursor:pointer;min-height:54px;display:inline-flex;justify-content:center;align-items:center;max-width:100%;width:100%}@media only screen and (max-width: 576px){fieldset{width:100% !important}}.checkbox-group-item{position:relative;padding-left:2px;display:flex;align-items:center;padding:10px 10px 10px 0px}.checkbox-group-item .checkbox-label{flex-basis:0;flex-grow:1}.checkbox-group.checkbox-inline .checkbox-group-item{display:inline-flex}[type='checkbox']{opacity:0;position:absolute}.checkbox-mark{position:relative;width:1.25em;height:1.25em;border-width:1px;border-style:solid !important;margin-right:5px}.checkbox-mark:after{content:'';transition:all 0.1s;position:absolute;top:1px;left:5px;line-height:0.8;width:5px;height:10px;border-color:inherit;border-style:solid;border-width:0 3px 3px 0;transform:rotate(45deg)}[type='checkbox']:not(:checked)+.checkbox-mark:after{opacity:0;transform:scale(0) rotate(45deg)}[type='checkbox']:checked+.checkbox-mark:after{opacity:1;transform:scale(1) rotate(45deg)}.radio-group-item{position:relative;padding-left:2px;display:flex;align-items:center;padding:10px 10px 10px 0px}.radio-group-item .radio-label{flex-basis:0;flex-grow:1}.radio-group.radio-inline .radio-group-item{display:inline-flex}[type='radio']{opacity:0;position:absolute}.consent-text{flex-grow:1;flex-basis:0}.radio-mark{position:relative;width:1.25em;height:1.25em;border-width:1px;margin-right:5px;border-style:solid !important;border-radius:100% !important}.radio-mark:after{content:'';transition:all 0.1s;position:absolute;top:50%;left:50%;line-height:0.8;border-color:inherit;border-style:solid;width:0px;height:0px;border-width:5px;border-radius:100%;transform:translate(-50%, -50%);transform-origin:center}[type='radio']:not(:checked)+.radio-mark:after{opacity:0;transform:scale(0) translate(-50%, -50%)}[type='radio']:checked+.radio-mark:after{opacity:1;transform:scale(1) translate(-50%, -50%)}
+ .c3042472 {background: var(--green)}.c3042472 > .overlay {background: var(--black-alpha-70)} .c9853825 {min-height: var(--height-auto);} .c9576685 {    width: var(--width-wide);    max-width: 100%;   } .c7175328 {padding: var(--spacing-xs) var(--spacing-m);} .c401438 { color: var(--white); } .c9393754 {text-align: center;} .c2476194 {padding: var(--spacing-xs) var(--spacing-m);} .c5736550 {    width: var(--width-wide);    max-width: 100%;   } .c583946 {background: var(--green)}.c583946 > .overlay {background: var(--black-alpha-10)} .c6261706 {min-height: var(--height-100vh);} .c3743878 {padding: var(--spacing-s) var(--spacing-m);} .c1394041 {text-align: left;} .c4426242 { color: var(--black); } .c2959343 {text-align: center;} .c8245185 {padding: var(--spacing-s) var(--spacing-m);} .c325488 {text-align: center;} .c8396553 {padding: 0;} .c5498762 {text-align: center;} .c4140960 {padding: 0;} .c4427862 { color: var(--secondary-color); } .c1675755 {text-align: center;} .c8082067 {padding: var(--spacing-xs) var(--spacing-m);} .c7927237 { background-color: var(--secondary-color-lighter); } .c6797028 {     border-color: var(--secondary-color-lighter);    } .c5409490 { color: var(--white); } .c3863374 {text-align: center;} .c3844917 {padding: var(--spacing-xs) var(--spacing-s);} .c2085399 {background: var(--green)}.c2085399 > .overlay {background: var(--black-alpha-70)} .c1117668 {min-height: var(--height-auto);} .c2811356 {    width: var(--width-wide);    max-width: 100%;   } .c8046528 {padding: var(--spacing-xs) var(--spacing-m);} .c9358824 { color: var(--white); } .c8186700 {text-align: center;} .c5311844 {padding: var(--spacing-xs) var(--spacing-m);} .c5784778 {padding: var(--spacing-m) var(--spacing-m);} .c3667260 { color: var(--grey-dark); } .c7975326 {padding: var(--spacing-xs) var(--spacing-m);} .c6975412 { background-color: transparent; } .c3529048 { color: var(--white); } .c2612603 { background-color: var(--primary-color); } .c3715486 {padding: var(--spacing-xs) var(--spacing-m);} .c4381320 {padding: var(--spacing-m) var(--spacing-m);} .c3558867 { background-color: var(--black-alpha-70); } .c2045885 { background-color: var(--white); } .c9042601 {padding: var(--spacing-xs) var(--spacing-m);} @media only screen and (max-width: 768px) {    .c3310754 {text-align: center;} .c9393754 {text-align: center;} .c2959343 {text-align: center;} .c3863374 {text-align: center;} .c5007089 {text-align: center;} .c8186700 {text-align: center;}}
+	</style>
+	
+<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="anonymous">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Ropa%20Sans" as="fetch" crossorigin="anonymous">
+
+	
+<style id="google-fonts">/* latin-ext */
+@font-face{font-display:swap;
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ropa Sans Regular'), local('RopaSans-Regular'), url(https://fonts.gstatic.com/s/ropasans/v9/EYqxmaNOzLlWtsZSScy6UzNpcZGf20NE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face{font-display:swap;
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ropa Sans Regular'), local('RopaSans-Regular'), url(https://fonts.gstatic.com/s/ropasans/v9/EYqxmaNOzLlWtsZSScy6XTNpcZGf2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><link type="text/css" rel="stylesheet" charset="UTF-8" href="./Pharma Test_files/translateelement.css"></head>
+
+<body>
+	
+
+
+	<div id="converdy__app">
+		<div id="c7643343" class="variation" data-variation-index="0" style="display:block">
+			 
+
+<div id="c7357567" class="c-section c-wrapper">
+	
+<div class="bg c3042472">
+
+	<div class="overlay"></div>
+
+
+
+</div>
+	<div class="inner c3310754 c7175328 c9853825 c9576685">
+		 
+
+<div id="c7929236" class="c9393754 c4401863 c2476194 c-paragraph c-wrapper">
+	<div class="inner">
+		
+
+
+
+<div class="c-inline-text small-text c401438"> 
+	<p class="inline-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Copyright 2020 - All rights reserved - VAT 12649931008</font></font></p><p class="inline-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PharmaTest.it</font></font></p></div>
+	</div>
+</div> 
+	</div>
+</div>  
+
+<div id="c4756560" class="c-section c-wrapper">
+	
+<div class="bg c583946">
+
+	<div class="overlay"></div>
+
+
+
+</div>
+	<div class="inner c1394041 c3743878 c6261706 c5736550">
+		 
+
+<div id="c8586130" class="c2959343 c7001014 c8245185 c-heading c-wrapper">
+		
+
+
+
+<div class="c-inline-text small-heading c4426242"> 
+	<h2 class="inline-text"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Shipping throughout Italy in 24 hours. </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">We are dedicated to the rapid distribution of protective material.</font></font></em></h2></div>
+</div>  
+
+<div id="c5773443" class="c325488 c456640 c8396553 hideMobile c-image c-wrapper">
+
+	
+
+
+
+
+	<span class="inner">
+		
+<div class="c-lazy-image false" style="width: 44%;">
+	<div style="padding-bottom:60%"></div>
+	
+		<img class="radius-subtle c6639605" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAClElEQVQoz62QW0iTcRTAz+amBE4L2rfAsIfCbV00ErIEF5gV5UrFB5GUQnwYXdCtQrEiQXBOJRvqnNuY1xmBgZQLzIdMs+hhuaiFdz+Xt+XUmBHaZaezTQXJ3jrw43/+h+/8vnP+ABINbApJGfhrG5QF6gWv4a8wTAIYJwPnZolmNyEjIv13MUnEGs6alAMyA8dfb54JBgMbS5KjRIi/ZmQDDuNkGBG5PtULauwlnJRHwb9CP5FOTaMktRFNgSnZ4DVhPmH2TSMg0TBxlxiheyVN95jyZyQvorsW4mr2gOiOFkoGTNAwZSVJIzX3EVXEc6KGaCKUvpUkxFdqbKXzEjFGHCfZGzoVRBtIy53A3L4JrXPVUM+yJFRRs45opzyZTjvRRaQA70C5nH+wwrq+FUeq6eCK1Z1BUvW70JjiSBKqSeh/KJ5+7GlQ3VCyLxeYHXK+aXSAa5zo9K9qZB+R/NDWb2XBkI0fiDWW7ZAVsfWH6IO/qeSedx1G74re+2ulBhG12QWNyrjgJG1G0unq6JMZ92F/YR7kWatPxSt0pbBPl3pZfgWXoer3NKcO3fBAN56bC31YAaZhA5S8FwP+WMoa/+zBh90z2GX3oLqw/uNsdBKiOQF7WxK83DRTj6wfsfaeGb1HErE5PeaVc3oXjn6KwhmHCHX2G32yQcRMIqFl5Bx8W166MDG16HGMuL6ws56pq7dMnUURZxYaFInu/LzzQxBfagmreLuYk1k81y6MXVJeTGxbdfGc84MC9+oYuCpf5lhCTQvjUv2Hlb3lthPQ028LQfSIEH8ytLLwmKplBwhKGIB6QreTG3o2HLgpDPBSGdh2jQHV9XBEEOJ3oO+Bqe1OD4dsuxBSn4ggzcqH/x1/AHhRPdilCcI3AAAAAElFTkSuQmCC" data-image-filename="0fa7cb7f8e6d92b21add504853603fbe5a3f1c37" data-image-format="png" style="opacity: 0; z-index:3">
+	
+<img class="radius-subtle c6639605" src="./Pharma Test_files/0fa7cb7f8e6d92b21add504853603fbe5a3f1c37-640w.png"></div>
+	</span>
+
+
+</div>  
+
+<div id="c2065392" class="c5498762 c4732063 c4140960 hideDesktop hideTablet c-image c-wrapper">
+
+	
+
+
+
+
+	<span class="inner">
+		
+<div class="c-lazy-image false" style="width: 58%;">
+	<div style="padding-bottom:60%"></div>
+	
+		<img class="radius-subtle c3143660" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAClElEQVQoz62QW0iTcRTAz+amBE4L2rfAsIfCbV00ErIEF5gV5UrFB5GUQnwYXdCtQrEiQXBOJRvqnNuY1xmBgZQLzIdMs+hhuaiFdz+Xt+XUmBHaZaezTQXJ3jrw43/+h+/8vnP+ABINbApJGfhrG5QF6gWv4a8wTAIYJwPnZolmNyEjIv13MUnEGs6alAMyA8dfb54JBgMbS5KjRIi/ZmQDDuNkGBG5PtULauwlnJRHwb9CP5FOTaMktRFNgSnZ4DVhPmH2TSMg0TBxlxiheyVN95jyZyQvorsW4mr2gOiOFkoGTNAwZSVJIzX3EVXEc6KGaCKUvpUkxFdqbKXzEjFGHCfZGzoVRBtIy53A3L4JrXPVUM+yJFRRs45opzyZTjvRRaQA70C5nH+wwrq+FUeq6eCK1Z1BUvW70JjiSBKqSeh/KJ5+7GlQ3VCyLxeYHXK+aXSAa5zo9K9qZB+R/NDWb2XBkI0fiDWW7ZAVsfWH6IO/qeSedx1G74re+2ulBhG12QWNyrjgJG1G0unq6JMZ92F/YR7kWatPxSt0pbBPl3pZfgWXoer3NKcO3fBAN56bC31YAaZhA5S8FwP+WMoa/+zBh90z2GX3oLqw/uNsdBKiOQF7WxK83DRTj6wfsfaeGb1HErE5PeaVc3oXjn6KwhmHCHX2G32yQcRMIqFl5Bx8W166MDG16HGMuL6ws56pq7dMnUURZxYaFInu/LzzQxBfagmreLuYk1k81y6MXVJeTGxbdfGc84MC9+oYuCpf5lhCTQvjUv2Hlb3lthPQ028LQfSIEH8ytLLwmKplBwhKGIB6QreTG3o2HLgpDPBSGdh2jQHV9XBEEOJ3oO+Bqe1OD4dsuxBSn4ggzcqH/x1/AHhRPdilCcI3AAAAAElFTkSuQmCC" data-image-filename="0fa7cb7f8e6d92b21add504853603fbe5a3f1c37" data-image-format="png" style="opacity: 0; z-index:3">
+	
+<img class="radius-subtle c3143660" src="./Pharma Test_files/0fa7cb7f8e6d92b21add504853603fbe5a3f1c37-320w.png"></div>
+	</span>
+
+
+</div>  
+
+<div id="c9265698" class="c1675755 c1161328 c8082067 c-paragraph c-wrapper">
+	<div class="inner">
+		
+
+
+
+<div class="c-inline-text small-text c4427862"> 
+	<p class="inline-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PharmaTest was created to solve the problems of each of us promptly.</font></font></p></div>
+	</div>
+</div>  
+
+<div id="c8844423" class="c3863374 c8162827 c3844917 c-button c-wrapper">
+
+	
+
+
+
+
+	<a class="c-btn solid border-thin c6797028 radius-rounded c6092871 c7927237" href="https://pharmatest.it/" target="_self">
+		
+
+
+
+<div class="c-inline-text strong-heading c5409490 btn-text"> 
+	<span class="inline-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">go to the site</font></font></span></div>
+	</a>
+
+
+
+</div>
+
+ 
+	</div>
+</div>  
+
+<div id="c6298034" class="c-section c-wrapper">
+	
+<div class="bg c2085399">
+
+	<div class="overlay"></div>
+
+
+
+</div>
+	<div class="inner c5007089 c8046528 c1117668 c2811356">
+		 
+
+<div id="c3240973" class="c8186700 c3898538 c5311844 c-paragraph c-wrapper">
+	<div class="inner">
+		
+
+
+
+<div class="c-inline-text small-text c9358824"> 
+	<p class="inline-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Copyright 2020 - All rights reserved - VAT 12649931008</font></font></p><p class="inline-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PharmaTest.it</font></font></p></div>
+	</div>
+</div> 
+	</div>
+</div> 
+		</div>
+	</div>
+
+
+	
+	
+	
+	
+		<div id="c680135" class="popup-wrapper c3558867">
+			<div class="popup size-medium shadow-medium c1044834 c2045885 radius-subtle c7875324 c9042601">
+			<div class="popup-content">
+				 
+
+<div id="c4651455" class="c5298863 c3382511 c5784778 c-heading c-wrapper">
+		
+
+
+
+<div class="c-inline-text large-heading c5504282"> 
+	<h1 class="inline-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sign up now.</font></font></h1></div>
+</div>  
+
+<div id="c5420001" class="c5200229 c6140041 c7975326 c-heading c-wrapper">
+		
+
+
+
+<div class="c-inline-text medium-text c3667260"> 
+	<h1 class="inline-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">And receive </font></font><span style="color: var(--primary-color);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">early access.</font></font></span></h1></div>
+</div>  
+
+
+<div id="c9027708" class="c2086236 c4472422 c3715486  lead-form c-wrapper">
+  <form method="post" data-form-state="{&quot;fields&quot;:[{&quot;id&quot;:&quot;name&quot;,&quot;type&quot;:&quot;text&quot;,&quot;placeholder&quot;:&quot;Name&quot;,&quot;label&quot;:&quot;&quot;,&quot;required&quot;:true},{&quot;id&quot;:&quot;email&quot;,&quot;type&quot;:&quot;email&quot;,&quot;placeholder&quot;:&quot;Email&quot;,&quot;label&quot;:&quot;&quot;,&quot;required&quot;:false}],&quot;id&quot;:&quot;c9027708&quot;,&quot;forward_email&quot;:&quot;&quot;,&quot;forward_email_subject&quot;:&quot;&quot;,&quot;webhook_url&quot;:&quot;&quot;,&quot;redirect_url&quot;:&quot;/thank-you&quot;}" novalidate="" class="converdy-lead-form">
+		
+
+			
+
+				<fieldset class="form-input col-12">
+			
+					
+		
+					
+						<input type="text" class="border-thin c5963154 radius-subtle c1421453 small-text c5217463 c6975412" name="name" placeholder="Name">
+					
+		
+					
+		
+					
+		
+					
+		
+					
+			
+					
+
+				</fieldset>
+
+			
+
+		
+
+			
+
+				<fieldset class="form-input col-12">
+			
+					
+		
+					
+						<input type="email" class="border-thin c5963154 radius-subtle c1421453 small-text c5217463 c6975412" name="email" placeholder="E-mail">
+					
+		
+					
+		
+					
+		
+					
+		
+					
+			
+					
+
+				</fieldset>
+
+			
+
+		
+
+
+    <div class="form-button-wrapper">
+        <button type="submit" class="btn border-thin c282031 radius-subtle c5329075 c2612603" "="">
+							<div class="btn-text button-text c3529048"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+								submit
+							</font></font></div>
+						</button>
+				</div>
+  
+
+	</form>
+
+</div>
+  
+
+<div id="c2047372" class="c479151 c9010595 c4381320 c-paragraph c-wrapper">
+	<div class="inner">
+		
+
+
+
+<div class="c-inline-text small-text c4389874"> 
+	<p class="inline-text"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">By signing up, you agree to the terms of service.</font></font></em></p></div>
+	</div>
+</div> 
+			</div>
+			<div class="close-popup">
+        <svg class="icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+          <path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" class=""></path>
+        </svg>
+			</div>
+		</div>
+	</div>
+	
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./Pharma Test_files/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+	
+
+
+
+
+	
+
+
+
+
+	
+
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
